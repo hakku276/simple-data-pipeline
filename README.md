@@ -22,3 +22,9 @@ SPRING_DATASOURCE_USERNAME=username
 * Filter and Flatten the documents using [JSLT](https://github.com/schibsted/jslt)
   * Note: For time reasons the complete document was not flattened, but can be possibly flattened using jslt [example here](https://github.com/schibsted/jslt/blob/master/examples/flatten.jslt)
 * Save the relationship between category and document in the database for visualization
+
+## Compile and Execution
+```
+mvn clean package
+java -jar <generated jar file>
+```
