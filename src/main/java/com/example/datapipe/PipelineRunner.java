@@ -17,6 +17,8 @@ import com.example.datapipe.service.IRecipeRepository;
 import lombok.extern.slf4j.Slf4j;
 
 /**
+ * The Data Pipeline task that is responsible for loading the data from the
+ * server and storing it in the database
  *
  * @author aanal
  *

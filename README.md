@@ -1,6 +1,6 @@
 # README
 
-This is a simple project that loads Categories and Documents from a Content Management system and stores them into a structured database.
+This is a simple project that loads Categories and Documents from a Content Management system and stores them into a structured database. Main Application Entrypoint: [https://github.com/hakku276/simple-data-pipeline/blob/master/src/main/java/com/example/datapipe/PipelineRunner.java](PipelineRunner)
 
 ## Configurable Parameters
 The following parameters can be configured depending upon the system / environment:

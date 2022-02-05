@@ -26,6 +26,13 @@ import com.schibsted.spt.data.jslt.Parser;
 
 import lombok.extern.slf4j.Slf4j;
 
+/**
+ * And implementation of the {@linkplain IContentService} that loads data from
+ * the Acoustic CMS systems.
+ *
+ * @author aanal
+ *
+ */
 @Slf4j
 @Service
 public class AcousticContentService implements IContentService {
