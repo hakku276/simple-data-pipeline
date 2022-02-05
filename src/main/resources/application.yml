@@ -1,0 +1,14 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: "jdbc:mysql://localhost:3306/documents"
+    username: username
+    password: password
+    driver-class-name: com.mysql.jdbc.Driver
+
+app:
+  data-source:
+    category-url: http://example.com
+    recipe-url: http://example.com

@@ -1,0 +1,10 @@
+[for (.) if (.document.elements.category) {
+  "id": .document.id,
+  "title": .document.name,
+  "created": .document.created,
+  "creatorId": .document.creatorId,
+  "description": .document.description,
+  "lastModified": .document.lastModified,
+  "systemModified": .document.systemModified,
+  "categoryIds": .document.elements.category.categoryIds
+}]
