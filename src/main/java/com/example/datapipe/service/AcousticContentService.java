@@ -70,9 +70,9 @@ public class AcousticContentService implements IContentService {
 
     @Override
     public List<Document> listDocuments() {
-        log.info("Requesting documents: url: {}", config.getRecipeUrl());
+        log.info("Requesting documents: url: {}", config.getDocumentUrl());
 
-        String response = template.exchange(config.getRecipeUrl(), HttpMethod.GET, null, String.class).getBody();
+        String response = template.exchange(config.getDocumentUrl(), HttpMethod.GET, null, String.class).getBody();
         if (!StringUtils.hasText(response)) {
             return new LinkedList<>();
         }

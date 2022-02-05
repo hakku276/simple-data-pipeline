@@ -11,6 +11,6 @@ import lombok.Data;
 public class AppConfig {
 
     private String categoryUrl;
-    private String recipeUrl;
+    private String documentUrl;
 
 }
